@@ -5,7 +5,7 @@
 
 </div> -->
 
-<div class="container-fluid home_banner">
+<div class="container-fluid">
   <div class="row">
 
     <div class="col-4 text-white">
