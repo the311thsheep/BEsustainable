@@ -1,0 +1,11 @@
+/* This is the CSS page with all the custom css */
+
+.bg-darkblue {
+  background-color: #22211F;
+}
+
+.home_banner {
+  background: url('images/lode-lagrainge-44wjflU1ATc-unsplash.jpg');
+  background-size: cover;
+
+}
