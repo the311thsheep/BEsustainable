@@ -9,7 +9,7 @@
   <div class="row">
 
     <div class="col-4 text-white">
-      <img src="images/Be_sustainable_logo1.png" style="height:200px" alt="">
+      <p>hello</p>
     </div>
 
     <div class="col-4 text-white">
