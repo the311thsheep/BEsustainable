@@ -1,7 +1,5 @@
 <?php
-  if(!isset($_POST['search'])) {
-    header("Location: search.php");
-  }
+  
   $search = $_POST['search'];
 
 // selects search query from database
