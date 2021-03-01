@@ -12,3 +12,19 @@
   background-size: cover;
 
 }
+
+.navbar {
+  padding: 0px;
+  color: transparent;
+}
+
+body {
+  background-color: black;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+
+}
