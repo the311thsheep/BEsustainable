@@ -1,10 +1,9 @@
 <?php
 
   $search = $_POST['search'];
-  echo $search;
-
+  ?> <h1> search results for "<?php echo "$search"; ?> " </h1> <?php
 // selects search query from database
-  $result_sql = "SELECT * FROM cert JOIN products ON products.certID=cert.certID WHERE products.name LIKE '%$search%' OR products.barcode LIKE '%$search%' OR cert.name LIKE '%$search%'";
+  $result_sql = "SELECT * FROM cert JOIN products ON products.certID=cert.certID WHERE products.name LIKE '%$search%' OR products.barcode LIKE '%$search%' OR cert.name LIKE '%$search%';";
 
   $result_qry = mysqli_query($dbconnect, $result_sql);
 
@@ -13,7 +12,7 @@
       echo "<h1>No results found</h1>";
     } else {
       $result_aa = mysqli_fetch_assoc($result_qry);
-// displays result name, image
+// displays result name, photo
 ?>
 <!-- all results are in a row -->
 <div class="row">
@@ -25,12 +24,12 @@
         ?>
 
 <!-- student card -->
-        <div class="card col-3" style="">
+        <div class="card col-2" style="color:black;">
           <!-- img -->
-          <img class="card-img-top" src="uploads/<?php echo $name; ?>.jpg" alt="Card image cap">
+          <img class="card-img-top" src="uploads/<?php echo $name; ?>.jpg" alt="<?php echo $name; ?>.jpg">
           <div class="card-body">
             <!-- name -->
-            <h5 class="card-title"><?php echo "$name $barcode"; ?></h5>
+            <h5 class="card-title"><?php echo "$name $barcode $cert"; ?></h5>
 
           </div>
         </div>
