@@ -13,19 +13,19 @@
   <div class="dropdown-menu dropdown-menu-right" id="collapsibleNavbar">
     <ul class="dropdown ">
       <li class="nav-item">
-        <a class="nav-link" href="#">Find products</a>
+        <a class="nav-link" href="index.php?page=findproducts">Find products</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About us</a>
+        <a class="nav-link" href="index.php?page=aboutus">About us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">product certificates</a>
+        <a class="nav-link" href="index.php?page=certificates">product certificates</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Your help</a>
+        <a class="nav-link" href="index.php?page=yourhelp">Your help</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Find us</a>
+        <a class="nav-link" href="index.php?page=findus">Find us</a>
       </li>
     </ul>
   </div>

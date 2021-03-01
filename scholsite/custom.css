@@ -17,14 +17,16 @@ body {
 
 }
 
-.dropdown-menu {
-  background-color: transparent;
-  border: none;
-  margin-right: 10px;
-  text-decoration: none;
 
-}
 
 .navbar {
   padding-right: 100px;
 }
+
+.dropdown-menu {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+
+}
+
