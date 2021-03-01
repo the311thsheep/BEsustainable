@@ -40,7 +40,7 @@
       $page = $_GET['page'];
     } else {
       $page = "home";
-    }
+}
       include("$page.php");
 
 
