@@ -1,10 +1,14 @@
 /* This is the CSS page with all the custom css */
 
-.bg-darkblue {
-  background-color: #22211F;
+body {
+  font-family: Courier;
+
 }
 
 
+.bg-darkblue {
+  background-color: #22211F;
+}
 
 
 .home_banner {
@@ -13,13 +17,10 @@
 
 }
 
-.navbar {
-  padding: 0px;
-  color: transparent;
-}
 
-body {
-  background-color: black;
+
+.navbar {
+  padding-right: 100px;
 }
 
 .dropdown-menu {
@@ -28,3 +29,4 @@ body {
   text-decoration: none;
 
 }
+

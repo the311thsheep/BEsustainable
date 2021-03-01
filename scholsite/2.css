@@ -1,0 +1,139 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+
+}
+
+/* grid styles  */
+
+/* banner styles */
+.banner_container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+}
+/* banner container ends */
+
+.logo {
+  background-color: #111;
+  padding: 10px;
+  color: white;
+
+}
+/* logo ends */
+
+/* logo image starts */
+.logo > img {
+  max-width: 10%;
+  height: 100px;
+  text-align: left;
+
+
+}
+
+/* logo image ends */
+
+.nav_bar {
+  display: grid;
+  background-color: black;
+  text-align: left;
+  color: white;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+
+
+}
+/* nav bar ends */
+
+/* formating content container */
+.content_container{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* reseting the margin and padding for the ul and setting font colour to white */
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  color: white;
+}
+ul li {
+  float:left;
+  width: 16%;
+  height:100px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  padding-top: 10px;
+  z-index: 99;
+}
+
+li a img {
+  max-height: 100px;
+
+}
+
+/* formating content container */
+.content_container{
+  padding-top: 100px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 20px;
+  height: auto;
+>>>>>>> dc19348004b38730216f044cc366910b6cc218eb
+
+}
+/* content container formating ends */
+
+/* card one style */
+.card_one{
+  border: 4px solid #17439039;
+  border-radius: 20px;
+  padding: 20px;
+
+}
+/* card one style ends */
+
+/* card two style */
+.card_two{
+  border: 4px solid #17439039;
+  border-radius: 20px;
+  padding: 20px;
+
+}
+/* card two style ends */
+=======
+/* card style */
+.card{
+  border: 4px solid white;
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  height: 100%;
+  padding-top: 40px;
+
+}
+/* card style ends */
+
+
+/* image in card resizing */
+/* card image resizing */
+.card > img {
+  max-width: 100%;
+  height: auto;
+  border: 4px solid white;
+}
+/* card image resizing ends*/

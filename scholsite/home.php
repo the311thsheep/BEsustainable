@@ -1,9 +1,9 @@
 
-<!-- background image -->
 <!-- <div class="jumbotron home_banner" style="height:1000px;">
 
 
 </div> -->
+
 
 <div class="container-fluid">
   <div class="row">
