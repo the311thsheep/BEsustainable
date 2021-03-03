@@ -33,6 +33,9 @@
 
 
   </div>
+  <?php
+  // include ('barcodereader.php'); 
+  ?>
 
 
 </div>
